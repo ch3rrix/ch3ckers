@@ -19,5 +19,7 @@ jobs:
       run: cd build && make -j
       
   run:
-  - name: run
-    run: cd build && ./ch3ckers
+    runs-on: ubuntu-latest
+    steps:
+    - name: run
+      run: cd build && ./ch3ckers
