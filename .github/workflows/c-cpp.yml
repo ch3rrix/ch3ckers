@@ -19,6 +19,5 @@ jobs:
       run: cd build && make -j
       
   run:
-  - uses: actions/checkout@v3
   - name: run
     run: cd build && ./ch3ckers
